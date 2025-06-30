@@ -1,5 +1,5 @@
-from dataclasses import asdict, dataclass
-from typing import List, Dict, Literal
+from dataclasses import dataclass
+from typing import Literal
 
 
 @dataclass
@@ -10,5 +10,5 @@ class ChatMessage:
 
 @dataclass
 class ChatConversationHistory:
-    messages: List[ChatMessage]
+    messages: list[ChatMessage]
     
