@@ -1,5 +1,3 @@
-import time
-
 from rich.console import Console
 
 from chat_models import ChatConversationHistory
